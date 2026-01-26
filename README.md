@@ -160,7 +160,7 @@ house-prices-advanced-regression-analysis/
 The best performing models after optimization:
 
 - **ElasticNet** with feature engineering: RMSE = 0.098, R² = 0.890
-- **Gradient Boosting** with feature engineering: RMSE = 0.098, R² = 0.890
+- **Gradient Boosting** with feature engineering: RMSE = 0.110, R² = 0.861
 
 Key findings:
 - Feature engineering significantly improves model performance
