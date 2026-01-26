@@ -132,10 +132,10 @@ house-prices-advanced-regression-analysis/
 
 ### Models Implemented
 
-| Model | Type | Best RMSE | Best R² |
-|-------|------|-----------|---------|
-| **ElasticNet** | Linear | 0.098 | 0.890 |
-| **Gradient Boosting** | Ensemble | 0.098 | 0.890 |
+| Model | Type | Best Configuration | Best RMSE | Best R² |
+|-------|------|-------------------|-----------|---------|
+| **ElasticNet** | Linear | Pipeline (feature engineering) | 0.098 | 0.890 |
+| **Gradient Boosting** | Ensemble | Pipeline + Tuning (GridSearchCV) | 0.110 | 0.861 |
 
 ## 🔧 Pipeline Components
 
