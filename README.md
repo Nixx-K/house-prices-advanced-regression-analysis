@@ -23,6 +23,8 @@ This project explores key factors affecting home values and builds optimized reg
 ```
 house-prices-advanced-regression-analysis/
 │
+├── .idea/                            # IDE configuration files (PyCharm/IntelliJ)
+│
 ├── data/
 │   ├── raw/                          # Original datasets from Kaggle
 │   ├── processed/                    # Cleaned and preprocessed data
@@ -42,9 +44,19 @@ house-prices-advanced-regression-analysis/
 │   ├── best_enet_pipeline.pkl        # Saved ElasticNet model
 │   └── best_gb_pipeline.pkl          # Saved Gradient Boosting model
 │
-├── plots/                            # Generated visualizations
-├── env/                              # Virtual environment
-└── README.md
+├── plots/                            # Generated visualizations and charts
+│
+├── reports/                          # LaTeX project documentation
+│   └── [LaTeX source files]          # Technical report and analysis documentation
+│
+├── src/                              # Source code modules
+│   └── [Python modules]              # Reusable functions and classes
+│
+├── text-data/                        # Text-based data files and descriptions
+│
+├── env/                              # Virtual environment (not tracked in git)
+│
+└── README.md                         # This file
 ```
 
 ## 🚀 Getting Started
@@ -156,6 +168,15 @@ Key findings:
 - Temporal features capture house age effects effectively
 - Regularization prevents overfitting in linear models
 
+## 📄 Documentation
+
+Complete technical documentation is available in the `reports/` directory in LaTeX format, including:
+- Detailed methodology
+- Statistical analysis
+- Model comparisons
+- Feature engineering techniques
+- Results and conclusions
+
 ## 🛠️ Technologies Used
 
 - **Python 3.8+**
@@ -164,12 +185,5 @@ Key findings:
 - **scikit-learn** - Machine learning models and pipelines
 - **Matplotlib/Seaborn** - Data visualization
 - **Jupyter Notebook** - Interactive development
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-
-
----
+- **LaTeX** - Technical documentation
 
